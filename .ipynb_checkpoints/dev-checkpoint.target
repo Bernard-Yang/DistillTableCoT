@@ -1,0 +1,893 @@
+The accuracies for DM id F, DM ood F, PAS id F, PAS ood F, PSD id F, and PSD ood F are higher when using BERT compared to using GloVe.
+The accuracies for AMR 2015 Smatch F and AMR 2017 Smatch F are higher when using multitask learning with BERT compared to using BERT alone.
+BioBERT performs better than BERT on the S → M → MedNLI task.
+The model without distillation achieves a test accuracy of 85.98%.
+The ELMo model with project achieves a test accuracy of 87.20.
+As the threshold increases, the number of sentences marked as neutral decreases.
+As the threshold increases, the inter-annotator agreement (Fleiss' Kappa) increases.
+The F-score for the "GloVe" embedding without tuning is 0.783.
+The precision for the "Google" embedding with tuning is 0.909.
+The F-score for the "Concept Input → Embeddings" column is higher than the F-score for the "Concept Input → TF" column for the "GloVe + -" row.
+The precision for the "Description P" column is higher than the precision for the "Both P" column for the "Google + -" row.
+The average cosine similarity for the method "Google +TF +IDF" is .545 for the topic "topic_science".
+The precision for the method "Gong et al. (2018)" is .758 for the topic "topic_science".
+The models in Table 1 are evaluated using different re-rankers and different values for k-best hypotheses.
+The BL+FDCLSTM [ITALIC] AT (ours) model achieves the highest MRR score for both CNN and LSTM re-rankers.
+The SAT (k=2) model achieves the highest WMT En-De BLEU score among all the models.
+The SynST (k=6) model has a higher speedup compared to the baseline (b=4) model.
+The "Hidden size 300" model has the highest accuracy of 82.64%.
+The models with "+0 dummy node" and "Without ⟨s⟩, ⟨/s⟩" have a training time of 56 seconds.
+S-LSTM+Attention achieved the highest accuracy among all the models.
+LSTM has the lowest training time among all the models.
+The model "S-LSTM" achieves the highest accuracy of 82.45.
+The model "3 stacked BiLSTM" has a training time of 137 seconds.
+SLSTM achieves a performance of 90.02 on the Camera dataset.
+The BiLSTM model takes 214 seconds to train and 11.06 seconds to test on the Magazines dataset.
+The models "huang2015bidirectional", "ma2016end", and "yang2017transfer" have the same accuracy of 97.55.
+The model "3 stacked BiLSTM" has a training time of 746 seconds.
+The "S-LSTM" model achieves the highest F1 score of [BOLD] 91.57* on the CoNLL03 (NER) dataset.
+The "3 stacked BiLSTM" model has the longest training time of 235 seconds on the CoNLL03 (NER) dataset.
+The baseline system has a BLEU score of 65.9 and a ROUGE-L score of 68.5.
+The Thomson Reuters (np 3) system has a BLEU score of 68.1.
+The baseline system performs worse than the other systems in terms of both BLEU and ROUGE-L scores.
+The system that performs best in terms of BLEU score also performs best in terms of ROUGE-L score.
+Increasing the number of layers in SynST's parse decoder significantly lowers the speedup.
+Increasing the number of layers in SynST's parse decoder marginally impacts BLEU.
+The BLEU scores for human references are higher than the BLEU scores for word and character references in both E2E and WebNLG.
+The ROUGE-L scores for human references are higher than the ROUGE-L scores for word and character references in both E2E and WebNLG.
+The percentage of instances with modified information is higher for WebNLG word compared to E2E word.
+The percentage of instances with correct content is higher compared to overall correctness for all datasets.
+The average number of unique words in WebNLG human-generated texts is higher than in WebNLG word-generated texts.
+The percentage of new sentences in E2E human-generated texts is higher than in WebNLG human-generated texts.
+The average number of correct texts increases when the model is trained with more templates.
+Applying a reranker to the model improves the average number of correct texts.
+The "Contextual Oracle" model has an R2 score of 15.46.
+The "seq2seq" model has an RL score of 31.44.
+The table presents experimental results of extractive summarization on the Google dataset using four different models.
+The compression rate for all models in the table is either 0.38 or 0.39.
+The top section of Table 3 evaluates the effects of contextual representation in the matching model.
+The values in the "abstractive R1" column decrease as we move from "CS + cat" to "CS + bot".
+The table shows the official evaluation results of the submitted runs on the test set for two sub-tasks: 1.1 and 1.2.
+Sub-task 2 performs better than sub-task 1.2 in both the "Ext." and "Class." categories.
+The table compares the performance of predicted chunk sequences and ground-truth chunk sequences in terms of F1 and exact match.
+The "predict-all-words CNN as decoder" consistently outperforms other decoder types across all evaluation metrics.
+The "predict-all-words CNN as decoder" achieves the highest F1 score of 0.58 on the SICK-E dataset.
+Table 4 compares different architectures and shows that the designed asymmetric RNN-CNN model works better than other asymmetric models and models with symmetric structure.
+Table 4 shows that the training time for the Skip-thought+LN model is 720 hours.
+The BLEU scores for WMT DE-EN, WMT EN-FI, and WMT RO-EN are the highest when using a vocabulary size of BPE 32K.
+The BLEU score for IWSLT CS-EN increases as the vocabulary size decreases from 50K to 16K.
+The Syl-CNN-3 model performs better than the Syl-Concat model.
+The LSTM-Word model has a lower perplexity than the Char-CNN model.
+The Syl-Concat model has 18% - 33% fewer parameters than the Char-CNN model and is trained 1.2 - 2.2 times faster.
+There are three different models mentioned in Table 5: RHN-Char-CNN, RHN-Syl-Concat, and RHN-Syl-Concat.
+The sizes of the models mentioned in Table 5 are 20M and 13M.
+Table 1 shows the effect of adding titles to premises in the FEVER dataset.
+The accuracy of the claim is higher when using the Transformer model on FEVER Title One compared to ESIM on FEVER Title One.
+The Support Accuracy for ESIM on FEVER Title Five Oracle is not provided in Table 2.
+The Claim Accuracy for Transformer on FEVER Title One is higher than the Support Accuracy in Table 2.
+The FEVER Baseline (TFIDF) retrieves 66.1% of evidence from the first half of the development set.
+Adding Titles + NE + Film to TFIDF retrieval increases the percentage of evidence retrieved from the first half of the development set to 81.2%.
+The FEVER Title One (Narrow Evidence) system achieved a score of .5550 during development.
+The FEVER Title One (Entire Articles) system achieved a score of .5844 during development and a score of .5736 on the test set.
+The projection accuracy for all pairs in the experiment is 44.7% at the top 1.
+The projection accuracy for new pairs in the experiment is 42.9% at the top 10.
+The average accuracy of predicting next-year insurgents based on locations using the cumulative approach with all pairs, including OOV, is 15.2.
+The average accuracy of predicting next-year insurgents based on locations using the incremental dynamic approach with all pairs, including OOV, up to now is 62.9.
+TL2RTL (L∗) has the highest TE3‡ P score and the highest TE3‡ F score among all models.
+TL2RTL (Lτce) has a higher TE3‡ R score and a higher TE3‡ F score compared to TL2RTL (Lτ) and TL2RTL (Lτh).
+The Jensen-Shannon divergence between word distribution in all Onion drug sites and Legal Onion drug sites is 0.61.
+The Jensen-Shannon divergence between word distribution in eBay sites and Illegal Onion drug sites is 0.61.
+Legal Onion websites have a higher average percentage of wikifiable named entities compared to eBay and Illegal Onion websites.
+The standard error for the average percentage of wikifiable named entities is highest for Legal Onion websites compared to eBay and Illegal Onion websites.
+The F1 result for the S07 dataset is the lowest among all the datasets in the Basile et al. (2014) study.
+Table 2 shows the F1 results for supervised systems on the Raganato et al. (2017a) dataset.
+The highest F1 scores in the "All", "S2", "S3", and "S15" columns are achieved by Yuan et al. (2016).
+Table 3 provides additional results on other settings of UKB.
+The ppr_w2w model performs the best on the S15 dataset when there is one or more context sentences with words greater than or equal to 20.
+The "HN-SA (our model)" has the highest accuracy among all the text classification models for both SWBD and SWBD2.
+The "BoW + SVM" model has the highest accuracy among all the text classification models for SWBD2.
+IRNet performs better than SyntaxSQLNet and SyntaxSQLNet(augment) on both the development and test sets.
+The use of BERT improves the accuracy of IRNet.
+Table 2 provides the exact matching accuracy of SyntaxSQLNet, SyntaxSQLNet(BERT), IRNet, and IRNet(BERT) on the test set by hardness level.
+IRNet(BERT) achieves higher exact matching accuracy than IRNet on the test set for all hardness levels.
+The SyntaxSQLNet(BERT) approach has the highest accuracy for generating SemQL queries.
+The Seq2Seq + Copying approach has an accuracy that is 14.1% higher than the Seq2Seq approach for generating SemQL queries.
+The BERT model has the highest accuracy on both the FEVER Dev base and Generated r.w cases.
+The BERT model has a higher accuracy than the ESIM model on the Generated r.w case.
+The bigram "united states" has a higher LMI score than the bigram "from america" in the train set.
+The table compares the performance of two systems, "Mnewsqa" and "Mnewsqa + Snet", on the SQuAD development set.
+The system "Mnewsqa + Snet" outperforms the system "Mnewsqa" in terms of both exact match (EM) and span F1 on the SQuAD development set.
+Seq2Seq(goal+look+state) achieves a higher percentage in Dataset 1 against the simulator compared to Seq2Seq(goal+look) and Seq2Seq(goal+state).
+Seq2Seq(goal+look+state) requires more turns in Dataset 2 against humans compared to Seq2Seq(goal+look) and Seq2Seq(goal+state).
+The percentage of Type Noun in the Zh⇒En translation is higher than in the En⇒Fr translation.
+The percentage of Punc. in the En⇒Fr translation is higher than in the other translations.
+The BiLSTM-XR-Dev Estimation method has the highest accuracy among all the methods in the table.
+The Semisupervised method has the highest Macro-F1 score among all the methods in the table.
+Table 4 provides results on the NewsQA test set for an ablation study on a BIDAF model, including two different experiments, A and B, with varying parameters.
+The values of EM and F1 are higher when using "all + Aoracle" compared to "2s + Aoracle".
+The "Health -> All-biomed" transfer learning schedule achieves higher BLEU scores than the "es2en Health" and "en2es Health" transfer learning schedules.
+The "All-biomed -> Bio" transfer learning schedule achieves higher BLEU scores than the "es2en Bio" and "en2es Bio" transfer learning schedules.
+The "Uniform ensemble" performs better than "Health → All-biomed" on the "es2en Khresmoi" dataset.
+The "en2es Test" dataset has the highest BLEU score for the "BI ensemble (α=0.5)" model.
+The uniform ensemble model achieves a higher BLEU score on the Khresmoi dataset than on the Test dataset for the de2en translation.
+The BI ensemble model outperforms the uniform ensemble model on both the Khresmoi dataset and the Test dataset for the de2en translation.
+Table 5 compares uniform ensembles and BI with varying smoothing factor on the WMT19 test data.
+BI with α=0.1 performs better than other methods in the en2es and en2de translation directions.
+The BLEU score for the "dev" dataset is 77.15.
+The BLEU score for the "eScape" dataset is 37.68.
+The "Ensemble x5" model has the lowest TER score.
+The "Gaussian" and "Uniform" models have the same BLEU score.
+The "Ensemble x5" model has the highest BLEU score among all the models.
+The BLEU score for the "Base" model falls within the range of 76.91 to 77.13.
+The accuracy of the "Lexical Examples" condition is higher than the accuracy of the "Mixed Examples" condition.
+The "Chain" condition has a higher diversity distinct score compared to the "Baseline" condition.
+The table shows the frame evaluation results on the triples from the FrameNet 1.7 corpus using different frame evaluation methods.
+The "Whole" method achieves the highest F1 scores across all categories (Verb, Subject, Object, and Frame) in the frame evaluation.
+The "LDA-Frames" method achieves the highest F1 score among all the methods in the table.
+The "NOAC" method has the highest value in the "niPU" column among all the methods in the table.
+The table shows the performance of different methods in terms of Max F1 and 11-point IAP.
+The performance of the methods improves in terms of 11-point IAP from Baseline to RR_FR_2step.
+The "RR_FR_2step" method has the highest 11-point IAP score.
+The CADEC dataset contains posts from the AskaPatient forum where consumers discuss their experiences with medications.
+The CRAFT dataset includes entity types related to biology such as Cell, Chemical entity, and Protein.
+There is a positive correlation between TVC and Word vectors.
+There is a negative correlation between PPL and LMs.
+Table 5 compares the performance of our best performance pretrained models with publicly available ones on different datasets.
+Our pretrained models outperform GloVe word vectors on all datasets.
+The default hyper-parameter setting in word2vec performs better on PubMed than the "Opt" hyper-parameter setting.
+The T-V distinction is the most common type of discrepancy in context-agnostic translation caused by deixis.
+The RC + SGLR model achieves the highest F-measure scores for both EE and TE relation pairs.
+The F-measure score for the 500+ interval in the RC (SG fixed) model is 67.3.
+RC (SG initialization) has the highest precision and a relatively high F-measure among the models in the "No specialized resources" section.
+The Best Clinical TempEval (2016) model has the lowest recall and F-measure among all the models in the table.
+The number of errors in the "Cross-Clause Relations (CCR)" category decreases as we move from "RC + SG" to "RC (SG fixed)" to "RC (SG init.)".
+The number of errors in the "Infrequent Arguments (<10)" category increases as we move from "RC + SG" to "RC (SG fixed)" to "RC (SG init.)".
+The LING+GAT model has the highest sentiment score and stance score among all the models.
+The LING model has the lowest hate score among all the models.
+The language pairs in the table are listed in alphabetical order.
+The number of annotated parallel sentences differs for each language pair.
+The wrong morphological form is the most frequent type of discrepancy in context-agnostic translation caused by ellipsis.
+The frequencies of all types of discrepancies in context-agnostic translation caused by ellipsis add up to 100%.
+Model M.3 (BERT) achieves the highest accuracy on the SST-2 dev set.
+Model M.2 (BiLSTM) shows the highest difference between means of predicted positive class probabilities for sentences with female nouns and sentences with male nouns.
+The HSV model has the highest cosine similarity score in the overall performance.
+The WM18 model has the lowest Delta-E distance in the fully unseen condition.
+The CADec model outperforms the baseline (1.5m) model in terms of BLEU score.
+The baseline (6m) model achieves the highest BLEU score among all the models.
+The original dataset with all the labels has a size of 587 for training, 5,418 for development, and 6,007 for testing.
+The subset labels which are inferable by the resource have a size of 173 for training, 1,268 for development, and 1,523 for testing.
+Table 4 shows the results on the noun comparison datasets.
+The "DoQ + 3-distance" model achieves a F&C score of 0.61 on the new data test set.
+The model "DoQ + 10-distance" has the highest accuracy of 0.877.
+The chance accuracy is 0.5.
+The table provides intrinsic evaluation results for different dimensions using both Indian Annotators and US Annotators.
+The accuracy for US Annotators in evaluating the dimension of Currency is 0.76.
+The incidence of the first person singular pronoun is significantly associated with satire.
+The agentless passive voice density is significantly associated with fake news.
+The "Headline + text body" model has the highest F1 score of 0.78.
+The "Text body only" model has a precision of 0.78.
+The "concat" method has the highest accuracy for all three contexts in the deixis task.
+The "CADec" method has the highest accuracy for all three contexts in the lexical cohesion task.
+The Pre-trained BERT model outperforms the Baseline and Coh-Metrix in terms of F1 score.
+The Pre-trained BERT model is the best performing model among the Baseline and Coh-Metrix.
+The "ment-norm" method achieves the highest F1 score of 93.07±0.27 on the AIDA-B test set.
+The "ment-norm" method consistently achieves higher F1 scores compared to other methods on the AIDA-B test set.
+The "guorobust" method achieves a score of 88 on the ACE2004 test set.
+The "ment-norm" method achieves an average score of 78.0 on the WIKI test set.
+Table 2 shows the performance of different LSTM-based variants with the traditional cross-validation setup.
+The BiLSTM variant achieves the highest UAR, κ, ρ, and eA values among all the LSTM-based variants.
+The table shows the accuracy on the ellipsis test set for different models.
+The "concat" model has the highest accuracy on the ellipsis test set.
+The BiLSTM with attention mechanism performs best in all evaluation metrics in the dialogue-wise cross-validation setup.
+The BiLSTM+att model has higher values in the "UAR", "κ", "ρ", and "eA" metrics compared to other LSTM-based variants.
+The "j_multi" model in this work achieves the highest F1-measure of [BOLD] 83.21.
+The "ext_m_feat" model in the previous work achieves the highest F1-measure of [BOLD] 83.47.
+The model "md" has the highest mean accuracy of 88.61.
+The model "shen2016role" from the previous work has a mean accuracy of 91.03.
+The model "BioELMo w/ KG+Sentiment" has an accuracy of 79.04%.
+Adding knowledge graph and sentiment information to the fastText model improves its accuracy to 73.67%.
+The table presents results for different probabilities of using corrupted reference at training time.
+As the probability of using corrupted reference at training time increases, the lexicon coverage scores also increase.
+The "Ours + ELMo w/o augmentation" model performs better than the "Ours + GloVe w/o augmentation" model in terms of Total P, Total R, and Total F1.
+The "BERT-Base, Uncased" model outperforms the "Choi et al. (2018) w augmentation" model in terms of Fine F1 score.
+"Ours + ELMo w/o augmentation" has a higher F1 score than "Ours + GloVe w/o augmentation".
+"Ours + ELMo w augmentation" has the same F1 score as "BERT-Base, Uncased".
+The EL&HEAD F1 score for the Proposed Approach is 36.8.
+The EL&HEAD F1 score for the Filter&Relabel denoising method is 40.1.
+The accuracy of the "Ours + ELMo w augmentation" model is 63.9.
+The macro F1 score of the "Ours + ELMo w augmentation" model is 84.5.
+Table 5 provides information about the average number of types added or deleted by the relabeling function per example, as well as the rate of examples discarded by the filtering function.
+The filtering function discards 9.4% of the examples for the "EL" data and 10.0% of the examples for the "HEAD" data.
+In the Samsung QA dataset, the average number of tokens in the message is smaller than the average number of tokens in the response.
+The HRDE-LTC model achieves the highest performance on the Ubuntu-v1 dataset when considering the top-1 response.
+The RDE model achieves a performance of 0.898 ±0.002 on the Ubuntu-v1 dataset when considering the top-5 response.
+The HRDE-LTC model achieves the highest performance on the Ubuntu-v2 dataset with a score of [BOLD] 0.815 ±0.001.
+The LSTM model achieves the highest score of 0.924 in the "Ubuntu-v2 1 in 10R@5" metric.
+The HRDE-LTC model achieves the highest performance scores on the Samsung QA dataset.
+The RDE model outperforms the TF-IDF model on the Samsung QA dataset.
+The model "IWAQG" outperforms all the baselines in terms of BLEU and METEOR scores.
+The model "IWAQG" achieves a BLEU-4 score of 18.53.
+The accuracy of the QG model increases as the percentage of Only QG* increases, except for the Upper Bound (100%) case.
+The IWAQG (73.8%) case achieves a higher BLEU-4 score compared to the Upper Bound (100%) case.
+The QG model without the interrogative-word classifier has a recall rate of 82.24% for the question type "What".
+The upper bound model has a recall rate of 99.72% for all question types combined.
+Adding NER to the CLS classifier improves the accuracy.
+Adding AT to the CLS classifier improves the accuracy.
+The class "What" has the highest recall percentage among all the classes.
+The class "How" has the highest precision percentage among all the classes.
+As the value of γ increases, the connectivity ratio decreases.
+As the value of K increases, the LAS score also increases.
+"EdgewisePS" has a higher F1 score than "DepTree" in the Biocreative VI CPR test.
+"KBestEisnerPS" has a higher F1 score than "TextOnly" in the Biocreative VI CPR test.
+The model "KBestEisnerPS" has an F1 score of 83.6.
+The model "EdgewisePS" has the highest F1 score among all the models listed in the table.
+The table shows the main results of different graph-based models on the SemEval-2010 task 8 test set.
+Among the listed graph-based models, "EdgewisePS" achieved the highest F1 score on the SemEval-2010 task 8 test set.
+The Hits@K accuracy improves with an increase in the number of training instances.
+The "+KATT" model consistently achieves the highest Hits@K accuracy.
+Table 1 displays the Spearman correlations with WordNet similarities and human judgments multiplied by 100.
+The WuP similarity score for TransR is 47.4.
+Table 2 compares the F1 scores of graph-based and vector-based models for WSD on WordNet.
+The F1 scores for the different models vary for the SemEval-15 dataset.
+The table shows similarity results on the RareWord set, measured as Spearman's ρ×100.
+The embedding dimension of VarEmbed is 128 and the vocabulary size is 100K.
+The Dec-separate model with attend KP performs the best on argument generation with system retrieved evidence and oracle retrieval in terms of BLEU score.
+The Retrieval baseline has the second highest MTR score among all models.
+The accuracy for POS tagging in the language "cs" with "Ntrain=5000 No-Char" is [BOLD] 90.81.
+The accuracy for POS tagging in the language "es" with "Full data char" is 91.78.
+The Full data Both column consistently has the highest scores for all languages.
+The No-Char column consistently has the lowest scores for all languages.
+The percentage of missing embeddings is higher for languages with lower POS tagging accuracy.
+Using mimick improves the POS tagging accuracy compared to using the vocabulary without mimick.
+The perplexity values for all scenarios are higher than the perplexity values for the Human Model.
+The "Our Models" with "Dec-shared" and "+ attend KP" has the highest MRR score.
+The "Baseline" has the lowest P@1 score.
+The variable "pastExpPronoun" has a positive coefficient in all four models.
+The variable "depTypeObj" is statistically significant in all four models.
+The DS model performs the best on the Unfriendly category.
+BERT performs better on the WS task compared to ELMo and MWE.
+ELMo has the shortest training time among the three models.
+Table 5 compares the performance of different training strategies with different values of λ.
+The Linearized derivation representation performs well across multiple architectures.
+The "Linearized derivation" external representation is used with both the "Plain BPE" and "POS/BPE" internal representations.
+Table 1 shows the BLEU score variation across WMT'17 language arcs for different processing variations.
+The range of BLEU scores for the different language arcs varies between 0.5 and 1.8, excluding "unk".
+Table 2 provides information about the system performance on the SPMRL and Wiki5K datasets.
+The RF model achieves high performance across all metrics (P, R, F) for both the SPMRL and Wiki5K datasets.
+Table 3 shows the effects of removing features on performance, specifically on the SPMRL dataset.
+The F-score for the SPMRL dataset in the FINAL row is 97.08%.
+The maximum perturbation space size in the SST and AG News test set increases as the perturbation radius increases.
+The maximum perturbation space size in the SST test set is larger for character substitutions than for word substitutions.
+Adversarial training achieves the highest adversarial accuracy on both SST-Char-Level and SST-Word-Level datasets.
+IBP-verifiable training achieves the highest exhaustively verified accuracy on all datasets.
+The "bigru-att" model has a higher F1 score than the "bert" model.
+The "marlin" sequence tagger has the highest accuracy for the "fr" language.
+The "fa" language has the highest accuracy among all the sequence taggers.
+The highest performance in the cipher grounder using brown as a labeler is achieved with the Parent Language (PL) fr.
+The performance of the cipher grounder using brown as a labeler is highest when the Parent Language (PL) is the same as the CL.
+The table compares the performance of the combined cipher grounder (cipher-avg) and a supervised tagger over the NOUN tag.
+The F1 scores for all languages are higher for the supervised tagger compared to the combined cipher grounder (cipher-avg).
+Table 4 describes the impact of grounded unsupervised POS tagging on MaLOPa's 'zero-resource' condition.
+The UAS and LAS scores for all languages are lower when using the cipher approach compared to the baseline condition.
+The UAS and LAS scores for the "muse" embeddings with "gold" tags are higher than the UAS and LAS scores for the "muse" embeddings with "none" tags.
+The F1 score for han is higher than for bigru-att.
+The precision for lwan is higher than for bigru-att.
+The genre of the "DEA" dataset is "Religious".
+The "ES" dataset has 97,320 tokens in the training set.
+Table 2 shows the word accuracy of different normalization methods on the test sets of historical datasets.
+The normalization method cSMTiser achieves the highest word accuracy on the PT dataset.
+The "hier-bert" model has the lowest MAE value among all the models.
+The "hier-bert" model has the highest ρ value among all the models.
+The "Ours" model does not have any scores listed for the 2015 and 2017 test sets.
+The "foland2017abstract" model has a Smatch score of 70.7 for the 2017 test set.
+The highest value for each metric is marked as [BOLD].
+The value for the "2015 PD" metric is higher than the values for the "2015 W'15", "2015 F'16", and "2015 D'17" metrics.
+Table 2 presents the main results of different systems.
+The system "NoInducedRule" performs worse on the development set compared to the system "NoConceptRule".
+Table 3 provides information about the rules used for decoding.
+The percentage for the "1-best" decoding in the "Terminal" category is 39.9%.
+The training set has the highest percentage of data labeled as "others".
+The test set has the highest percentage of data labeled as "others".
+The harmonic mean of the F1 scores for the HRLCE model is higher on the Dev set compared to the Test set.
+The F1 score for the Sad emotion is higher for the HRLCE model compared to the BERT model on both the Dev and Test sets.
+The JAMR aligner achieves an Alignment F1 score of 90.6.
+Our aligner achieves an Alignment F1 score of 95.2.
+The table shows the parsing results for JAMR parser and CAMR parser with and without aligner.
+Our aligner improves the parsing results for JAMR parser compared to the JAMR aligner.
+Table 6 presents the parsing results of different models.
+The parsing result for the ensemble of Word, POS, and Our aligner is 68.4.
+The accuracy of the "DynSp" model is higher when using the previous question or the answer to the previous question.
+The ESE performance (p@k) for Location Eq. 5 with Seed 1 is 0.23.
+The ESE performance (p@k) for Person Eq. 7 with Seed 2 is 0.60.
+The table shows the pipeline testing results of EAL and EAA annotation modes for different datasets.
+The average F-Score for all entity classes is 0.81 (percentage cut).
+The total number of spoken texts is equal to the total number of written texts in the dataset.
+The bc.conv category contains 137,223 spoken texts.
+The table represents the confusion matrix for the classification of test data.
+The number of instances predicted as singular is 222.
+The table provides agreement patterns across genres for both written and spoken genres.
+The total number of instances for written genres is higher than the total number of instances for spoken genres.
+There are 3,982 propositions evaluated in AMPERE.
+The performance of BiLSTM-CRF is significantly better than all other models in terms of precision, recall, and F1 score.
+The RST-parser model has a higher recall than precision and F1 score.
+The L-biLSTM(2)-S model has the highest r value of 0.826 in the FactBank dataset.
+The H-biLSTM(1)-MultiSimp model has the lowest MAE value of 0.313 in the Meantime dataset.
+The BiLSTM-CRF-joint method achieves the highest F1 score for overall proposition classification.
+The CNN method achieves a higher F1 score for fact proposition classification than for other types of propositions.
+The decoder type of the model is LSTM.
+The attention type used in the model is general.
+The model "train 23K + 500K" has the lowest TER and the highest BLEU scores among all the models.
+Increasing the amount of training data from "train 11K" to "train 23K" to "train 23K + 500K" leads to an increase in the BLEU score.
+The feature "Used for transportation" has the highest F1 score of 76.6.
+The precision for the feature "Is a weapon" is 71.4.
+The table shows the mean predictions for linear and tree models on UDS-IH2-dev, grouped by governing dependency relation.
+The "root" relation has the highest mean label for both L-biLSTM and T-biLSTM models on UDS-IH2-dev.
+The lexicon "LIWC" used as external knowledge has 73 dimensions.
+The lexicon "SemEval15" used as external knowledge has 1 dimension.
+The gate+emb.conc. model achieves the highest F1 score on the Irony18 dataset.
+The gate model achieves the highest F1 score on the SCv2 dataset.
+Table 5 provides information about the mean gold labels, counts, and MAE for L-biLSTM(2)-S and T-biLSTM(2)-S model predictions on UDS-IH2-dev, grouped by modals and negation.
+There are both negated and non-negated instances for each modal in the dataset.
+Table 2 displays the coefficient of determination (r2) between global metrics and crowdsourced topic-word matching annotations.
+The SigVac metric has a higher coefficient of determination (r2) for the Amazon dataset compared to the Newsgroups and New York Times datasets.
+The local metric "SwitchP" has higher values for the Amazon dataset compared to the Newsgroups and New York Times datasets.
+The KCE method outperforms other methods in terms of all metrics (P@01, P@05, P@10, AUC).
+The KCE (-E) method outperforms other methods in terms of all metrics (R@01, R@05, R@10, W/T/L).
+The performance of the model improves as more features are added.
+The AUC increases as more features are added.
+Table 7 shows the notable attributes of 50 instances from UDS-IH2-dev dataset with the highest absolute prediction error.
+Out of the 50 instances from UDS-IH2-dev dataset with the highest absolute prediction error, 43 instances have one or more of the listed attributes.
+The similarity score between the entity pair "911 attack (E)" and "attack" is 0.72 according to the Word2Vec model.
+The closest kernel mean after training for the entity pair "hotel (E)" and "travel" is 0.9 according to the KCE model.
+BERT (large) has a low Self-BLEU score and a high percentage of unique n-grams for n=2, n=3, and n=4.
+WT103 has a low Self-BLEU score and a high percentage of unique n-grams for n=2, n=3, and n=4.
+The Corpus-BLEU score for BERT (large) with the WT103 dataset is 5.05.
+The perplexity score for GPT is 154.29.
+"Our model" has a higher average F1 score than other methods.
+The table shows the F1 scores of the model when it is weakly-supervised and when it is fully-supervised on Wikipedia and on AIDA CoNLL.
+The fully-supervised model performs slightly better than the weakly-supervised model on AIDA CoNLL.
+The table presents the results of an ablation study on the AIDA CoNLL development set.
+Our model achieves an F1 score of 88.05 on the AIDA CoNLL development set.
+The table shows the accuracy (%) of our model and fully-supervised learning on different NER types on AIDA-A dataset.
+Our model achieves higher accuracy (%) than fully-supervised learning on all NER types on AIDA-A dataset.
+The H-combined model achieves the highest F-score among all models for all languages.
+The proportion of discontinuous MWEs is the same for all models and languages.
+The verb "want to" has the highest number of occurrences among all the verbs in UDS-IH2-dev that are xcomp-governed by an infinitival-taking verb.
+Table 2 compares the performance of different systems on test data in terms of MWE-based F-score.
+The H-combined system achieves the highest F-score for all languages.
+The table shows the Pearson correlations between performances on a subset of all pairs of target tasks, measured over all runs reported in Table 2.
+The correlation between performance on the QNLI task and the overall GLUE score is 0.56.
+The NE tag "date, time, duration, set (temporal)" is the most frequently occurring NE tag in the dataset.
+The NE tag "ordinal" is the least frequently occurring NE tag in the dataset.
+The precision, recall, and F1 score for the "only-nummod" predicate are higher than the "vanilla" predicate for the "child (manual ground truth)" subjects.
+The number of Wikidata entities as subjects (#s) is higher for the "child" predicate compared to the "spouse" and "contains admin. terr. entity" predicates.
+The average LAS score for the "Int" models is higher than the average LAS score for the "Ext" models.
+The LAS score for the "Ext" model with "BestPub" is higher than the LAS score for the "Int" models.
+The table provides information on the LAS improvements by CNN and LSTM models in the IV and OOV cases on the development sets.
+The accuracy score for the combination of "Russian, Ukrainian" is [BOLD] 700.
+The number of data points for the combination of "Russian, Ukrainian, Belarusian" is [BOLD] 772.
+The "DAG transducer Ye et al. (2018)" model does not have BLEU scores for the "All" and "All overlap" subsets of the test set.
+All models in the table have a perfect exact match with the reference data.
+The values for the character embedding size and bigram embedding size are both 50.
+The LSTM hidden size is 200 and there is only 1 LSTM layer.
+The table presents development results for two types of input: "Auto seg" and "No seg".
+The table shows the performance of various models for both "Auto seg" and "No seg" inputs.
+Table 5 presents the main results on OntoNotes using three different segmentation methods: Gold seg, Auto seg, and No seg.
+The F1 scores for the +char+bichar LSTM model are higher than the F1 scores for the Word baseline model for both the Gold seg and Auto seg segmentation methods.
+The "Lattice" model has the highest F1 score among all the models.
+The "Chen et al. (2006a)" model has lower precision, recall, and F1 score compared to the "Lattice" model.
+The "Lattice" model achieves the highest F1 score of 94.46 in the resume NER task.
+The "Lattice" model achieves the highest precision score of 94.81 in the resume NER task.
+Table 3 provides development set results for English-Estonian in terms of character-F and BLEU scores.
+The +ensemble-of-5 modification achieves the highest character-F and BLEU scores.
+The highest score for the \Es → \Fr translation task is 38.10.
+The average score for the supervised translation task is 50.64.
+Removing node attributes, except for num and tense, decreases the BLEU score.
+Removing edge features slightly decreases the BLEU score.
+The supervised performance of the Pivot model is equal to the supervised performance of the Our baselines Pivot model, both with a value of 46.71.
+The supervised models have a slightly higher average performance than our baselines on Europarl.
+Our baselines perform better than the supervised models in the \Es → \De translation task on Europarl.
+Our baselines using the Basic approach achieve a similar performance to the supervised setting.
+Table 5 shows the results on the proposed IWSLT17.
+The "Agree" system has a higher average score than the "Basic" and "Pivot" systems in the supervised setting.
+The "Lang-Specific S-Attention" model outperforms the "Source Context" model on all language pairs.
+The "Lang-Specific Attention" model outperforms the "Base Model" on the "Europarl En-Fr" dataset.
+Table 3 provides BLEU scores for the bilingual test sets.
+Our model outperforms the previous sentence scores for most language pairs, except for the "Subtitles En-Ru" pair.
+The BLEU score is highest for the "Complete Context" type of context.
+The BLEU score is slightly higher for the "Current Turn" type of context compared to the "Current Language from Previous Turns" type of context.
+Table 1 presents the performance comparison between different state-of-the-art approaches on SCWS, in terms of Spearman's correlation.
+The average similarity score for UTDSM is 69.6.
+The BLEU scores for the WSJ test domain are higher when trained on WSJ + Giga compared to when trained only on WSJ.
+The method "AvgCD" achieves the highest Precision, Recall, F1-score, and Accuracy among all the methods.
+The methods "AvgD" and "AvgCD" have higher Precision values compared to the methods "LDA", "Global-DSM", and "MaxCD".
+The MaxCD method has the highest performance in terms of Precision, Recall, F1-score, and Accuracy.
+The AvgD and AvgCD methods have the highest F1-score values.
+The percentage of known intents is 0.0% for the SNIPS dataset when 25% of classes are treated as known intents.
+Table 1 compares AL with and without its truncated average, tracking time-indexed lag ALi=gi−i−1γ when |x|=|y|=4 for a wait-3 system.
+When ALi=gi−i−1γ, AL is equal to 2.25.
+The BLEU scores for DMRS - all attributes are higher than the BLEU scores for DMRS - no attributes.
+The BLEU scores for DMRS - all attributes are higher than the BLEU scores for AMR.
+The accuracy for the Entailment class on the MultiNLI Matched Dev Set is 84.12%.
+The accuracy for the Cont. class in sentences with complex syntactic complexity is 50.45%.
+The "De→En" translation performs better than the "Fr→En" and "Et→En" translations in terms of Memory-to-Context BLEU scores.
+The "+both" variant of the Document NMT model performs better than the "+src" and "+trg" variants in terms of Memory-to-Output METEOR scores.
+The table compares the performance of different models in probing tasks.
+The performance of the model c[0:6] decreases as the range of context increases.
+The model "c[0:2]" performs the best in the "Relatedness/Paraphrase STSB" task compared to other models.
+The average performance across all tasks is 78.3.
+"EigenSent⊕Avg" achieves the highest F1 score in the 20-NG P task.
+"p-means" performs better than "Avg. vec." and "ELMo" in the 20-NG task.
+Table 1 provides the coverage of words from the manual transcripts in the DSTC2 development set for different batch ASR output types.
+The coverage of words in the pruned cnet is lower than in the all words ASR output type.
+The table shows different methods used for the experiments, including "1-best baseline", "weighted pooling", "[ITALIC] cnet - score threshold 0.01", and "[ITALIC] ensemble models".
+The "cnet" method has higher accuracy than the "baseline" method for both "goals" and "requests" columns.
+The "batch ASR" method has higher accuracy than the "live ASR" method.
+The "transcripts" method has higher accuracy than both the "batch ASR" and "live ASR" methods.
+The training set contains 31,545 sentences/clauses and the test set contains 5,563 sentences/clauses.
+The development set contains 2,860 sentences/clauses labeled as "Obligation" and the test set contains 970 sentences/clauses labeled as "Obligation".
+The total number of sentences in the Ru, Ja, and En columns is 1,654.
+There are 600 sentences in the Ru column and 313 sentences in the En column in the "Usage test" category.
+The bilstm-att model has a higher F1 score than the bilstm model.
+The bilstm-att model has a higher AUC score than the bilstm model.
+The BLEU scores for translations involving pseudo-parallel data generated by back-translation from Ja to En are higher than the scores for translations involving pseudo-parallel data generated by back-translation from En to Ja.
+There is no pseudo-parallel data involved in the translation from Ja to Ru.
+The table includes the accuracies of the GNN (CNN) and Proto (CNN) models on few-shot DA.
+The models with an asterisk ignore the NOTA setting and assume all queries can be classified as one of the given relations.
+The accuracy of the models decreases as the percentage of NOTA increases.
+The AFET†‡ method outperforms all other methods in terms of OntoNotes Acc., OntoNotes Ma-F1, and OntoNotes Mi-F1.
+The Attentive† method outperforms all other methods in terms of Wiki/Figer(gold) Acc., Wiki/Figer(gold) Ma-F1, and Wiki/Figer(gold) Mi-F1.
+The AFET model outperforms our model in terms of F-1 score for most label types.
+Our model performs the best in terms of F-1 score for the label type "/location".
+Table 2 provides information about the performance of different approaches in relation to the average cosine similarity of words associated with different property types.
+The approach using the f1-neigh model performs better on the "is_eaten_edible" property compared to the f1-lr and f1-net models.
+The "x-bilstm-att" model has the longest training time.
+The "h-bilstm-att" model has the highest number of parameters.
+The table lists different properties, such as "full_is_yellow" and "full_is_used_in_cooking".
+The model trained with the SNLI dataset performs the best in the VG task, with a correlation of [BOLD] 76.69.
+The correlation for the MNLI dataset in the WS353 task is 61.10.
+The best accuracy for the CR task is achieved by training on the SNLI dataset with the "w" setting.
+The best score for the STSB task is achieved by training on the SNLI dataset with the "vg" setting.
+The table shows the accuracy (%) of three different systems (Rule, Stat, and Neural) categorized by gender and difficulty.
+The table categorizes the accuracy (%) of the systems based on whether the sentence is a "gotcha" or not.
+The model "Our Model" outperforms all other models in all evaluation metrics.
+The "Our Model" achieves the highest ROUGE-L score among all models.
+There are three different models: Baseline, AdvCls, and AdvDat.
+The accuracy scores for the Hard dataset are lower than the scores for the Val and Test datasets for all three models.
+The word "alone" has a 83.33% decrease from the baseline score in the AdvCls (1,1) model.
+The score of the word "cat" in the p(l|w) model is 0.84.
+The BiLSTM model does not have any scores listed for any language in Table 1.
+The Skip-gram model has the lowest F1 score for the "hin" language in Table 1.
+The GNBusiness dataset has the highest number of documents or news clusters compared to other datasets.
+The ACE 2005 dataset has the highest number of event types compared to other datasets.
+As the value of λ increases, both the unpreserved BLEU and preserved BLEU decrease.
+The preserved DAL is consistently lower than the unpreserved DAL for all values of λ.
+The method "ODEE-FER" has the highest overall performance in schema matching.
+The method "ODEE-FER" achieves the highest F1 score in schema matching.
+The method "ODEE-FER" has the highest average slot coherence score.
+The method "DBLP:conf/acl/NguyenTFB15" has an average slot coherence score of 0.10.
+According to Table 2, ED(2) has the highest human preference score.
+Table 2 shows that Seq2seq performs better than LSTM-LM in terms of ROUGE-L score.
+The table shows the percentage of n-grams in test abstracts generated by a system and a human that appeared in the training data.
+The percentage of n-grams in the test abstracts generated by the system decreases as the value of n increases.
+The highest ROUGE-L score is achieved in iteration 1.
+The "Non-expert CS" category consistently has the lowest passing rates across different titles.
+The passing rates for the "Same Title" category are generally higher compared to the passing rates for the "Different Titles" category.
+Table 2 presents the results of unimodal sentiment analysis on the CMU-MOSI test set.
+The "S+I" modality has the highest sentiment analysis result among all modalities for the "Visual" and "MAE" categories.
+The fusion strategy S+I using the HF feature achieves the highest MAE score.
+The fusion strategy S+P+I achieves the highest CC score.
+Table 2 presents the BioBERT performance on the MedNLI task for three different combinations of PMC and PubMed datasets.
+The "+PubMed+PMC" combination achieves the highest accuracy for both the dev and test sets in the BioBERT performance on the MedNLI task.
+Table 2 provides the classification performance of compared methods on various topics, measured by the averaged macro F1-score over ten runs on the test data.
+The accuracy of the BERT Classifier improves as the number of tokens used increases.
+The BERT models have higher accuracy than the LSTM models.
+Table 2 shows the average performance across all models depending on the window position.
+The highest performance score for the Analogies task is achieved with the "GW symmetric" window position.
+The inclusion of cross-sentential contexts improves the performance of both OS and GW models on analogies.
+The removal of stop words improves the performance of the models on SimLex999.
+The table provides validation accuracies for the best model broken down by genre.
+The table shows the performance of BERT models on different GLUE tasks.
+BERT models initialized with pre-trained weights perform better than the ones initialized with normal distribution.
+Our model's performance, as measured by tokenized BLEU, is lower than the reference score in the Chen2018 comparison.
+Our model's performance, as measured by tokenized BLEU, is lower than the reference score in the EnFr comparison.
+Table 2 presents the tokenized BLEU scores for different language pairs using both BPE and character-based tokenization.
+The table provides the counts of different types of errors out of 100 randomly sampled examples from the DeEn test set.
+The table provides the counts of errors in terms of both BPE and Char units for each error type out of 100 randomly sampled examples from the DeEn test set.
+The BiLSTM encoder is used in multiple rows in Table 6.
+The HM, 2-layer encoder achieves the highest BLEU score in Table 6.
+BERT + Wiki + PU achieves the highest micro-F1 (μF1) score among all the methods.
+BERT + Wiki + PUC achieves the highest ensembled F1 (eF1) score among all the methods.
+BERT has the highest MAP score among all the methods listed in the table.
+The MAP score for BERT is 0.346 ± 0.024.
+Table 4 presents F1 scores for P, R, and F1 metrics for four different datasets: Wikipedia, Twitter, and Politics.
+The F1 score for the PUC model on the Politics dataset is 0.475.
+The table compares the number of correct predictions, precision, recall, and F1-score for four different datasets.
+NLTK has the highest precision for positive predictions among the different tools.
+Table 3 provides correlation results for different configurations of the proposed approach and a competitor baseline based on cosine similarity of word embeddings.
+The average similarity score for "wordsim" in the "1800rv [ITALIC] w" configuration is 80.0.
+The table provides results on the NIST Chinese-English translation task using different translation models.
+The number of model parameters varies among the different translation models.
+The "Shared-private" model outperforms the vanilla Transformer model on the WMT English-German translation task.
+The "Three-way WT" model has the highest parameter reduction percentage among all the models.
+The table shows results on the IWSLT {Ar, Ja, Ko, Zh}-to-En translation tasks.
+The BLEU scores for the Vanilla model are lower compared to the Shared-private model for all language pairs.
+The model with the sharing coefficients [ITALIC] Shared-private 0.9, 0.7, 0.5 achieves the highest BLEU score.
+The model with the sharing coefficients [ITALIC] Shared-private 1, 1, 1 has the smallest embedding size.
+Table 2 provides information about the average time for users to set up a tool and identify verbs in a 623 word news article.
+The tool "brat" was not used by any participants on either Ubuntu or macOS.
+The perplexity scores for node2vec, syntree2vec, and word2vec increase as the size of the dataset increases.
+The perplexity scores for node2vec and syntree2vec are similar, while the score for word2vec is consistently higher.
+The labels in Table 1 are either "Yes" or "No".
+The number of training examples for each label in Table 1 is different.
+The RoBERTa-L TandA (ASNQ → WikiQA) model achieves the highest MAP and MRR scores among all the models listed in the table.
+The BERT-B TandA (ASNQ → WikiQA) model achieves a higher MAP and MRR score than the BERT-L TandA (ASNQ → WikiQA) model.
+The table shows the performance of different models on the TREC-QA dataset.
+The RoBERTa-L model with transfer learning from ASNQ to TREC-QA achieves a MAP score of 0.943 and an MRR score of 0.974.
+As the noise level increases, the performance of both fine-tuning and TandA (ASNQ → *) approaches decreases on the TREC-QA dataset.
+The fine-tuning approach is more sensitive to noise in the WikiQA dataset compared to the TREC-QA dataset.
+The MAP score for WikiQA with the label "Neg: 1 Pos: 4" is 0.870.
+The MRR score for TREC-QA with the labels "Neg: 2,3 Pos: 4" is 0.871.
+Table 7 compares the performance of TandA with ASNQ and QNLI.
+The MAP score for TREC-QA is higher than the MAP score for WikiQA.
+The table compares the performance of three different models: BERT, RoBERTa Base, and RoBERTa Large.
+The model BERT Base with TANDA (ASNQ → NAD) transfer learning achieves the highest precision at 1 for Sample 1.
+All features in IC = 1 have positive contribution values except for "has_int".
+The feature "Bias term" has the same value and contribution in IC = 2.
+The Eisner algorithm (ours) performs significantly faster than the Eisner algorithm (generic) in terms of sents/s for both "en_ud" and "en_ptb" datasets.
+Our system performs better than the baseline on average.
+The error reduction from the baseline to the upper bound for the cs_pdt treebank is 23.1%.
+Table 3 compares the word form similarities of 28 datasets using different distance measures.
+The median value of the "JW⋅cos" distance measure is 3.40.
+As the number of authors increases, the number of samples per author decreases.
+Our Model (BERT) outperforms HexaF - UCL in terms of label accuracy on the development set for both ϕ values.
+The label accuracy of Our Model (BERT) improves when the value of ϕ decreases from 0.76 to 0.67.
+The FEVER Dataset consists of three sets: Training Set, Development Set, and Test Set.
+The question generation system has a high Conversion Accuracy of over 88% for all sets in the FEVER Dataset.
+The table shows the performance of the question generation system on the training, development, and test sets of the FEVER Dataset.
+The label accuracy for the training set is 81.52%.
+The Bert_WikiCREM model outperforms the Bert model on the transductive scenario Gap subset.
+The Bert_Gap_Dpr model outperforms the Bert model on the transductive scenario Gap subset.
+The table compares the performance of pretrained and non-pretrained models based on the number of authors and the number of samples per class.
+The table provides accuracy scores for different models in cross-lingual Wikipedia title linking.
+The "Encode" model does not have any accuracy scores mentioned in the table.
+The table compares the entity linking accuracy for Tigrinya and Oromo languages.
+The entity linking accuracy for Tigrinya is higher than for Oromo.
+Table 3 shows the entity linking accuracy with PBEL using Graphemes, Phonemes, and Articulatory features as input.
+Phonemes have the highest entity linking accuracy with PBEL among the Graphemes, Phonemes, and Articulatory features.
+The performance of PMI is higher on Wikipedia compared to textbooks.
+The performance of DIIN with scenario is higher compared to BERT NLI with scenario.
+The "dsve" method with "w2v" word embedding has the lowest "r@1" score.
+Adding more languages to the "Ours w/ muse" method decreases the "r@10" score.
+The experiments in Table 2 compare the performance of different embeddings on image retrieval on the coco dataset.
+The recall@10 decreases as more languages are added to the training set.
+The highest recall@10 score on the Multi30k dataset is achieved when training with the "en+de" language combination.
+The recall@10 scores for the "fr" and "en+de" language combinations are not available in the table.
+DBERT achieves the highest EM score on the development set.
+Table 1 presents the results of different methods for abstractive summarization.
+The method "+M1-latent" has a higher recall score for R-1 compared to other methods.
+Table 2 presents the average petition regression performance over 3 runs for different models and their variations.
+The Bi-LSTM w/ latent model with the + M1-shallow variation (MAE=1.11) performs significantly better than the baseline (MAE=1.15).
+BERTSDA with teacher size T-1 has a lower test error rate on IMDb compared to BERTSDV with teacher size 1.
+BERTSDV with teacher size 4 has a higher accuracy on SNLI compared to BERTSDA with teacher size 3.
+The table provides the test error rate and accuracy of different models on various datasets.
+The self-distillation models (BERTSDV and BERTSDA) show a higher average relative change compared to other models.
+The table shows the effects of fine-tuning the BERT-large model (BERT-L) on different datasets.
+TransDG has the lowest overall perplexity score compared to other models.
+CopyNet has the highest overall perplexity score.
+The "TransDG" model achieves the highest scores in all categories (Overall, High, Medium, Low, OOV) compared to other models.
+The "CopyNet" model achieves the highest overall score compared to other models.
+The Seq2Seq model has the lowest BLEU-1 score among all the models.
+Table 5 presents the human evaluation results of different models.
+The TransDG model achieves the highest scores for fluency, relevance, and correctness.
+Table 7 shows the ablation results of TransDG on the test set.
+The BLEU-1 score is higher than the BLEU-2 score for all models in Table 7.
+The "Our Methods" row contains the results of different models.
+The "G-R (Beam-25 & pQ & TH2)" model achieves the highest accuracy for the "Calendar" domain.
+Increasing the look-ahead (LA) value improves the performance of the IM2LATEX-100K Bi-LSTM model.
+The 5-LA search strategy achieves the highest performance score among all the strategies.
+DSQuAD has the highest average question length among all models.
+DSQuAD has the highest average longest n-gram overlap between passage and question among all models.
+The BLEU scores decrease for all search strategies when the target sentence length is longer than 25 words.
+The BLEU score for "Greedy Search" is higher than the BLEU scores for "2-LA", "3-LA", "4-LA", and "5-LA".
+The BLEU score for "Beam Search (B=10)" is higher than the BLEU scores for "Greedy Search", "2-LA", "3-LA", "4-LA", and "5-LA".
+The highest score in the "Greedy" search strategy is achieved when γ is 1.0.
+The highest score in the "3-LA" search strategy is achieved when γ is 1.0.
+The "Joint Self-attention" model and the "Local Joint Self-attention" model have the same BLEU scores for the WMT'14 EN-DE and IWSLT'14 DE-EN datasets.
+The "Local Joint Self-attention" model has the highest BLEU score among all the models for the WMT'14 EN-FR dataset.
+The proposed method* achieves the highest performance in both "Line iu %" and "Pixel iu %" on the DIVA-HisDB dataset.
+The CITlab Argus LineDetect method achieves the second-highest performance in both "Line iu %" and "Pixel iu %" on the DIVA-HisDB dataset.
+Table II shows the results of the experiments from Table I with the ground truth of the semantic segmentation at pixel-level as input.
+The proposed method achieves a pixel iu % of [BOLD] 100.0.
+The "ARNet" method achieves the highest BLEU-4 score in the Image Captioning MSCOCO task.
+The "EtEMN" method achieves the highest accuracy in the VQA task.
+The accuracy of LSTM + ft on the Phrase Grounding task for the ReferIt dataset is 53.67.
+The "+ multi-task pretraining w/ target task + ft" model outperforms all other models in terms of Mean Recall, Accuracy, and Average metrics.
+The "GrOVLE (w/o multi-task pretraining) + ft" model performs better than the "FastText + ft" model in terms of accuracy for the Phrase Grounding QA R-CNN task.
+Table 3 compares the performance of training word embeddings on four tasks and testing on the fifth, as well as training on all five tasks.
+The "GrOVLE w/o multi-task pretraining" row has lower values for the "Image Captioning BLEU-4" and "Image Captioning CIDEr" metrics compared to the other rows.
+The BiDAF model consistently outperforms the BERT and RoBERTa models on both the dev and test sets.
+CMAML has the best overall performance among all the methods in terms of Perplexity, C Score, BLEU, Distinct-1, Diff Score, and Δ Score.
+CMAML has the highest structure similarity of different users among all the methods.
+The models used for training are BiDAF, BERT, RoBERTa, and DRoBERTa.
+DBERT, DRoBERTa, and DNQ have higher F1 scores than BiDAF and BERT on the DSQuAD evaluation dataset.
+Table 4 provides corpus-level BLEU scores on the validation sets for the same model architecture trained on different data.
+The model trained on both WebSplit 1.0 and WikiSplit data achieves a BLEU score of 61.4 on the WebSplit 1.0 validation set and a BLEU score of 76.1 on the WikiSplit validation set.
+Table 6 shows the manual evaluation results for a random sample of 50 inputs from the WebSplit 1.0 validation set.
+The model trained on both AG18 and WebSplit has a correct prediction rate of 95/100 (95%).
+The table shows the results of different models on the WebSplit test set.
+The model trained on both the Reference and Source data achieves a BLEU score of 62.4.
+The quality result for local embeddings is better for the "EmbDI walks MA" method compared to the "RefS" method.
+The quality result for local embeddings is better for the "RefL" method compared to the "Basic: no walks MC" method.
+The Precision, Recall, and F-score for "RefS" are all 1.
+The Precision for "Seep [ITALIC] L P" is .63 and the Precision for "Seep [ITALIC] L R" is .88.
+The table provides F-Measure results for different methods of entity recognition (ER).
+The highest F-Measure results are marked as bold in the table.
+The BERT model achieves the highest F1 score on the DSQuAD dataset.
+The DRoBERTa model achieves a higher EM score than the DBERT model on the DSQuAD + DRoBERTa dataset.
+The Complex dataset does not contain any duplicate sentences.
+The MinWikiSplit dataset has a low density of similar sentences.
+Table 6 provides the averaged human evaluation ratings for grammaticality, meaning preservation, and structural simplicity on a random sample of 300 sentences from MinWikiSplit.
+The average human evaluation ratings for grammaticality, meaning preservation, and structural simplicity on a random sample of 300 sentences from MinWikiSplit are 4.36, 4.10, and 3.43 respectively.
+Table 1 provides a comparative table of some of the available hate speech and abusive language corpora in terms of labels and sizes.
+The dataset "Chatzakou:2017:MBD:3091478.3091487" has 5 annotators per tweet.
+Table 1 shows the development set sentence retrieval performance of different models.
+The Pointwise + Threshold model achieves the highest precision and F1 scores among all the models listed in the table.
+The "STSL" model consistently outperforms other models in terms of average macro-F1 score across all languages.
+The "MTML" model consistently underperforms other models in terms of average micro-F1 score across all languages.
+The MTSL model outperforms other models on average in terms of micro-F1 score across all languages.
+The STSL model outperforms other models on average in terms of macro-F1 score across all languages.
+Multilingual BERT achieves higher F1-scores than the baseline on both French and Japanese SQuAD datasets.
+Multilingual BERT achieves higher Exact Match (EM) scores than the baseline on both French and Japanese SQuAD datasets.
+The table shows the Exact Match and F1-score of multilingual BERT on each of the cross-lingual SQuAD datasets.
+The F1 score for French is 67.28.
+The combination of BERT (Large) and BERT (Pointwise) achieves the highest FEVER score among all the models.
+The combination of BERT (Large) and BERT (Pointwise + HNM) achieves the highest label accuracy among all the models.
+The table shows the Doc-level BLEU scores on the DGT valid and test sets for three different tracks: NLG, MT, and MT+NLG.
+The table includes both constrained and unconstrained models, as indicated by the "yes" and "no" values in the "Constrained" column.
+Table 6 provides a comparison of English NLG models against state-of-the-art on the Rotowire-test dataset.
+The "Ours (4-player)" model achieves a BLEU score of 22.2 on the Rotowire-test dataset.
+The baseline model achieved a BLEU score of 22.7 on the validation set and 20.4 on the test set.
+When all the ablations (1) to (5) are applied to the model, the BLEU score decreases to 21.3 on the validation set and 19.7 on the test set.
+Table 3 displays the F1 score on the development set for low-resource training setups using different transfer methods and different sizes of labeled Danish sentences.
+The F1 score for the "Small" setup using the "neural transfer +Large src" transfer method is [BOLD] 70.82.
+The Bilstm model performs the best among all the models in terms of F1 score on both the development and test sets.
+The Polyglot model performs the best among all the models in terms of F1 score for recognizing named entities of type "PER" on both the development and test sets.
+catSeqTG-2 RF1 performs better on the Krapivin dataset than catSeq-2 RF1.
+The "catSeqTG-2 [ITALIC] RF1" model has the lowest Present MAE value.
+The "catSeqTG-2 [ITALIC] RF1" model has the highest Absent Avg. # value.
+The "catSeq" model performs better in terms of "Present F1@M" and "Present F1@5" scores when it is present compared to when it is absent.
+The table shows keyphrase prediction results on the KP20k dataset with multiple models.
+The new models perform better than the old models in terms of F1@M scores for keyphrase prediction on the KP20k dataset.
+Table 1 presents the automatic metrics evaluation for different models.
+The model AR+MMI+RL achieves the highest BLEU score among all the models.
+The "NonAR" model has the highest percentage of disagreement in terms of content richness among all the models.
+The table provides the performances of NonAR+MMI methods on WMT14 En↔De and WMT16 Ro→En.
+NAT +MMI improves the performance by 1.48 on WMT14 En→De, 1.22 on WMT14 De→En, and 0.57 on WMT16 Ro→En compared to NAT.
+Among the different weighting variations evaluated on the compounds dataset, "TransWeight" has the highest value for "Cos-d".
+Among the different weighting variations evaluated on the compounds dataset, "TransWeight" has the highest value for "Q3".
+The F1 score for the model "BiLSTM" with the feature "ENT-DEP1" is 73.9.
+The precision (P) for the model "CNN" with the feature "ENT-ONLY" is 52.7.
+BERTbase performs better than the state-of-the-art (SOTA) on the YahooQA dataset at epoch=5 in terms of MAP.
+Table 2 shows the results of four different models: CNN, BiLSTM, BiLSTM-CNN, and BiLSTM-GCNN.
+The "BiLSTM-GCNN" model with the "ENT-DEP0" configuration achieves the highest F1 score of 62.5.
+The OPIEC-Linked corpus has the fewest total triples.
+The average triple length in tokens is the same for all three OPIEC corpora.
+The most frequent open relation aligned to the DBpedia relation "location" in OPEIC-Linked is "[ITALIC] 'be in'" with a count of 43,842.
+The most frequent open relation aligned to the DBpedia relation "spouse" in OPEIC-Linked is "[ITALIC] 'be wife of'" with a count of 1,965.
+PAFIBERT outperforms SEMAFOR, Hermann et al., Yang and Mitchell, and Hartmann et al. on both FrameNet 1.5 All and FrameNet 1.7 All.
+PAFIBERT outperforms SEMAFOR, Hermann et al., Yang and Mitchell, and Hartmann et al. on FrameNet 1.5 Ambiguous.
+BERTlarge outperforms BERTbase on most datasets in terms of MRR.
+BERTlarge outperforms BERTbase on most datasets in terms of MAP.
+The default hyperparameter tuning method achieves a higher score on the semeval dataset compared to the random search method.
+The manual search method achieves a higher score on the i2b2 Class dataset compared to the default hyperparameter tuning method.
+The CRCNN model achieves a performance of 81.55 on the ddi Class dataset using the Original pre-processing technique.
+The CRCNN model achieves a performance of 50.41 on the i2b2 Detect dataset using the NER Blinding pre-processing technique.
+The BERT-tokens model outperforms the CRCNN model on the semeval and ddi Class datasets.
+The BERT-tokens model outperforms the CRCNN model on the ddi Detect dataset.
+The table shows machine translation tokenized BLEU test results on IWSLT 2017 de→en, KFTT ja→en, WMT 2016 ro→en, and WMT 2014 en→de.
+The BLEU test result for the softmax activation function on the ja→en language pair is 21.57.
+Table 6 shows the results for C-LSTM models trained with CC and arXiv embeddings on both subtasks.
+The macro F1 score for subtask 1.2 is higher for CC compared to arXiv.
+Table 1 compares the segmentation performance of different methods on four evaluation datasets.
+The "Cross-modal self-attention" method achieves the highest IoU score among all the attention methods.
+The IoU score of the "Cross-modal self-attention" method is higher than the IoU scores of the other attention methods.
+The precision at threshold 0.5 is higher for CMSA-S, CMSA-W, CMSA+PPM, CMSA+Deconv, CMSA+ConvLSTM, CMSA+Gated, and CMSA+GF(Ours) compared to RMI-LSTM and RRN-CNN.
+The value for the second metric is empty for Model 3.
+Model 2 has a value of 0.94 for the first metric.
+The "Our Method" model achieves an accuracy of 82.9 on the SwDA dataset.
+The "Our Method" model achieves an accuracy of 91.1 on the MRDA dataset.
+The "No-Sort" method achieves the highest F1@5 score on the Krapivin dataset.
+The "Alpha" method achieves the highest F1@10 score on average across all datasets.
+The number of parameters increases as the model complexity increases.
+The "No-Sort" model performs better than the "Appear-Pre" model in terms of F1 score.
+The model ELMo-LSTM-CRF-HB performs better in the Diagnosis task compared to the Prescription task.
+The model rand-LSTM-CRF performs better in the Penn Adverse Drug task compared to the Chemical-Disease task.
+The diagnosis detection performance for the label "Ruled-out" is slightly higher than the label "Positive".
+The prescription reasons detection performance for the label "Prescribed" is higher than the label "Reason".
+The average length of dialogues in the Friends Test dataset is 156.38.
+The label distribution for Joy in the EmotionPush Training dataset is 14.2%.
+FSA achieves a higher precision than Essentia on both Snips and HotelQA datasets.
+The classification test score for classifying R vs U is higher in the BR dataset compared to the US dataset.
+The classification test score for classifying R vs U is lower in the combined BR + US dataset compared to the BR dataset.
+The storage size of Headers is larger in ethanos compared to geth.
+The storage size for Headers is the same for both fast sync and compact sync in geth.
+The storage size for Trie nodes is higher for fast sync than for compact sync in geth.
+Our model has a lower BLEU score compared to the Transformer-word and Transformer-BPE models.
+Our model has a lower RD score compared to the Transformer-word and Transformer-BPE models.
+The BERT model achieves the highest F1 scores for both the SLC and FLC tasks.
+The ReLU model achieves a higher precision score than the Joint model for the SLC task.
+The method "CAGE-reasoning" has the highest accuracy of 72.6%.
+Table 2 shows the results on CQA dev-random-split with CoS-E used during training.
+CAGE-reasoning achieves the highest accuracy among all the methods in Table 3.
+Human performance is higher than any other method in Table 3.
+The "CoS-E-open-ended*" method has the highest accuracy among all the methods.
+The "CoS-E-selected" method has a higher accuracy than the "CoS-E-limited-open-ended" method.
+The table presents the results for two different methods: BERT and + expl transfer.
+The performance of both BERT and + expl transfer is lower on the SWAG task compared to the Story Cloze task.
+BERT + PUC achieves the highest precision and recall values among all the methods.
+BERT + PUC achieves a higher F1 score than BERT.
+The size of the "Edible fruit" domain is larger than the size of the "Hand tool" domain.
+The inter-rater agreement for the "Edible fruit" domain is higher than the inter-rater agreement for the "Musical Instr." domain.
+The "Fruit" feature has the highest polysemy among all the features.
+The "Structural" normalization method achieves the highest balanced accuracy for all three domains.
+Normalizing the features improves the accuracy of predictions in the new domain.
+Table 1 provides the distribution of event mentions per part-of-speech (POS) per token in all datasets of the EVENTI corpus.
+The training dataset in the EVENTI corpus contains 6,710 noun event mentions.
+The total number of events in the training dataset is 17,528.
+There are 107 events belonging to the ASPECTUAL class in the test dataset.
+The embedding parameter "Fastext-It" has the highest values for both Strict Evaluation F1 and Relaxed Evaluation F1.
+The embedding parameter "ILC-ItWack" has the highest value for Strict Evaluation P.
+DialogWAE-GMP achieves the highest scores in terms of BLEU R, BLEU F1, BOW Embedding A, BOW Embedding E, BOW Embedding G, intra-dist dist-1, intra-dist dist-2, inter-dist dist-1, and inter-dist dist-2 among all the models.
+VHRED achieves the highest score in terms of BLEU P among all the models.
+Table 5 shows human judgments for models trained on the Dailydialog dataset.
+DialogWAE-GMP has the highest coherence score among all models in the Dailydialog dataset.
+The RL Look-ahead model achieves the highest score for all three aspects: Empathy, Relevance, and Fluency.
+The MultiSeq model achieves the highest BLEU score.
+The performance of "Ours" is better than the performance of "EditSQL" and "EditSQL + BERT" on all metrics (SParC Ques.Match, SParC Int.Match, CoSQL Ques.Match, CoSQL Int.Match).
+The performance of "Ours + BERT" is better than the performance of "Ours" on the CoSQL Ques.Match metric.
+LEDS achieves a higher average precision than BLESS, EVAL, SHWARTZ, and WBLESS in the detection task.
+BLESS achieves a higher average accuracy than WBLESS and BIBLESS in the direction prediction task.
+The RELU+ Residual combination achieves the highest Average Precision values for all evaluation metrics.
+The Tanh+ Residual combination achieves a higher Average Precision value than the Tanh Only combination for the WBLESS evaluation metric.
+The SPON approach achieves the highest Average Precision value on the unsupervised hypernym detection task for the BLESS dataset.
+The SPON approach shows a statistically significant improvement in Average Precision compared to the Smoothed Box model on the unsupervised hypernym detection task for the BLESS dataset.
+The "Two-Stage + RL (Ours)" model achieves the highest ROUGE-1 and ROUGE-2 scores among all the models.
+The ROUGE scores improve as more words are included, as shown by the increase in scores from "First sentences" to "First k words".
+The table presents the results on the SemEval 2018 Domain-specific hypernym discovery task.
+CRIM is the best system on the domain-specific datasets.
+The "Pre-trained Greedy" method performs better than the "Real Input" method in terms of average embedding similarity scores.
+The number of parameters used for the "SoPa" model is 255K.
+The observed agreement (Ao) and Cohen's Kappa score (κ) for "Questions" are higher than those for "Features" and "Answers".
+The observed agreement (Ao) and Cohen's Kappa score (κ) for "Features" are higher than those for "Answers".
+The "Joint" model performs the best on the Wikipedia dataset with a score of 59.4±0.47%.
+The "Inception" model performs better than the "Inceptionfixed" model on the arXiv cs.ai dataset.
+The quality classes in the table are ranked in the order of FA, GA, B, C, Start, and Stub.
+The number of correct predictions (gray cells) increases as we move from lower quality classes to higher quality classes.
+Table 1 provides information about two large-scale text classification data sets - AG news and Sogou news.
+The AG news data set has 4 classes, while the Sogou news data set has 5 classes.
+The VDCNN model performs better than other models on both the AG and Sogou datasets in terms of testing error.
+The table provides a summary of BLEU scores for different types of models.
+The average BLEU score for prefix models is 94.43.
+The average performance of pre-trained models is higher than that of non-pre-trained models.
+The performance of the Infix-Transformer model is higher in Experiment 1 compared to Experiment 2.
+The "Slot-independent SUMBT (proposed)" model achieves the highest joint accuracy score on the evaluation dataset of the WOZ 2.0 corpus.
+The "BERT+RNN (baseline 1)" model achieves a joint accuracy score of 0.892 (±0.011) on the evaluation dataset of the WOZ 2.0 corpus.
+The SUMBT model achieves the highest joint accuracy on the evaluation dataset of the MultiWOZ corpus.
+The SUMBT model outperforms the benchmark baseline in terms of joint accuracy on the evaluation dataset of the MultiWOZ corpus.
+The fine-tuned accuracy is higher than the baseline accuracy for all models and target corpora.
+The HUBERT (Transformer) model shows a higher gain in accuracy compared to the BERT model for all target corpora.
+For the BERT model, the fine-tuned accuracy is generally higher than the baseline accuracy for most target corpora.
+The HUBERT (Transformer) model shows a positive gain in accuracy after fine-tuning for all target corpora.
+The HUBERT model outperforms the BERT model on both MNLI and QNLI tasks.
+The HUBERT model performs better than BERT on all tasks except for RTE.
+The Primary CCS Top-1 Recall for the SHiP model with notes only is 0.667.
+The Mortality AUROC for the Hierarchical model without pretraining with all features is 0.876.
+Table 1 provides information about different methods used for compression and their corresponding accuracy and efficiency results.
+Table 1 includes the average performance of each method across multiple tasks.
+AdaBERT achieves the highest accuracy on the MNLI task compared to other tasks.
+AdaBERT outperforms the Random model in terms of accuracy across all tasks.
+Increasing the value of β from 0 to 4 improves the performance on SST-2, MRPC, QNLI, and RTE.
+Increasing the value of β from 4 to 8 decreases the performance on SST-2, MRPC, QNLI, and RTE.
+The performance of the models improves as more knowledge loss terms are added.
+The model with the knowledge loss term "LCE (All)" added has the highest performance.
+The M-BERT model performs better than SOTA1 in all evaluation metrics.
+The BERT model has a higher F1 score than the SOTA models.
+The longer the sentence, the longer the inference time for all three attention methods.
+The inclusion of the RL model reduces the inference time for all sentence lengths compared to using only the Gaussian Mask.
+As the score threshold decreases, the number of images decreases for both Omniglot and Imagenet.
+The number of images for Omniglot decreases as the score threshold decreases.
+The Min-Grad + Soft-Att model achieves a BLEU score of 31.17/88.55 for the translation of the original/adversarial sentence in the en-de language pair.
+The random + Soft-Att model achieves a BLEU score of 33.61/89.77 for the translation of the original/adversarial sentence in the en-fr language pair.
+The BLEU score for the original sentence translated by the "random + Soft-Att" model is 13.77.
+The BLEU score for the original sentence translated by the "random + HotFlip" model is 43.90.
+The SacreBleu score on Newstest '12 decreases as the percentage of noised data increases.
+The SacreBleu score on Newstest '17 is higher for 0% noised data compared to 100% noised data.
+The NoisedBT model performs better on the test set compared to the Bitext model in the forward models (EnRo) task.
+The It.-2 NoisedBT model performs better on the test set compared to the It.-2 BT model in the reverse models (RoEn) task.
+The table shows the results on WMT15 EnFr with different models including Bitext, BT, NoisedBT, and TaggedBT.
+TaggedBT achieves the highest scores in the years 2011, 2012, 2014, and 2015.
+The "TaggedBT" model has the highest attention sink ratio on the first and last token.
+The attention sink ratio for the "BT" model is lower than the attention sink ratio for the "NoisedBT" model.
+There are two models mentioned in Table 7: TaggedBT and NoisedBT.
+There are two types of decoding mentioned in Table 7: standard and as BT (back-translated).
+The "src-tgt unigram overlap" is higher for TaggedBT (tagged decode) (10.7%) compared to TaggedBT (standard decode) (8.9%).
+The Reuters-8 dataset consists of 8 different classes.
+The "earn" class has the highest number of samples in the Reuters-8 dataset.
+The text classification experiment on the Reuters-8 database involved multiple methods.
+The TF-MSM method with w2v feature achieves the highest accuracy in the text classification experiment on the Reuters-8 database.
+The ERRANT F0.5 score for GPT-2 on the CoNLL-2014 dataset is 45.58.
+The ERRANT R score for BERT on the FCE dataset is 34.67.
+The distribution of reply types is different between Antichat and Hackforums.
+The majority of replies in Antichat fall into the "Other" category.
+Logistic Regression achieves the highest F1 score in the "Antichat Product" task.
+SVM outperforms FastText in the "Antichat Reply" task.
+The table compares different pooling methods for various tasks including Semantic Similarity, Text Classification, Entailment, Surface Information, Syntactic Information, and Semantic Information.
+The bolded values in the "Mean" column represent the highest mean scores achieved for each task.
+The "In-domain Fine-tuned BERT" model outperforms other models in terms of R@1, R@5, and R@10 on the Quasar-t dataset.
+The "In-domain Fine-tuned BERT" model performs better than other models in terms of P@1, P@5, and P@10 on the InsuranceQA dataset.
+Our trained model outperforms the other models in all four categories (Arman word, Arman phrase, Peyma word, Peyma phrase).
+Our trained model achieves a performance of 84.03% for the Arman word category.
+Team 6 (SpeechTrans) has the highest performance in terms of precision, recall, and F1 scores on the out-domain test data.
+The term "root" has the highest ambiguity score among the medical device terms.
+The "LR" system outperforms the "BiLSTM" system in terms of Macro-F1 score for most datasets.
+The "+Syntax" system achieves higher F1 scores for claims than the "-Syntax" system for all datasets.
+The "MT" system performs better than the "OC" system in terms of F1 score for claims.
+The "CNN:rand" system performs better than the "OC" system in terms of F1 score for claims.
+50.0% of the respondents strongly agree that the system was able to provide fluent answers.
+66.7% of the respondents agree that the system reduces their need to google specific information.
+The models in Table 2 are categorized into three groups: Unsupervised IR Baselines, Semantic Similarity Methods, and Relevance Matching Methods.
+The model "COALA syntax-aware" has the highest accuracy of 54.1% on the InsuranceQA dataset.
+The table represents the induced hierarchies for the English (EN) and German (DE) languages.
+The induced hierarchies in both English (EN) and German (DE) languages start with "Agent" and end with "Value/Stimulus/Topic/Result/Predicate/Goal/InitialLocation/Attribute/Extent".
+The global ranker performs better on the English training data compared to the German training data in the cross-lingual evaluation.
+The global ranker outperforms the random baseline on the English test data in the cross-lingual evaluation.
+The "tf-idf" metric achieves lower scores for each gene in the test rankings compared to the other metrics.
+The BiLSTM model achieves a macro-F1 score of 80.20 on the "Med" epistemic activity.
+The UB macro-F1 score for the "TEd" epistemic activity is 93.29.
+The table shows the results of SLC experiments using two different models: BERT and LR.
+The BERT model performs better on the "text" feature compared to the BERT* model.
+The F1 score for the Propaganda Technique task on the test set is 0.131∗.
+The precision, recall, and F1 score for the Exaggeration, Minimisation technique on the development set are 0.833, 0.085, and 0.154 respectively.
+The highest nDCG@10 score is achieved by the "auto-ref + rocchio + relevance" method.
+The "rocchio + relevance" method achieves higher scores than the "auto-ref" method for all three metrics.
+The table compares the features of previous evaluation applications to "Ours (Linspector Web)".
+The "Ours (Linspector Web)" application supports 28 languages and has 16 layers.
+The table presents the results of four different difficulty prediction approaches: SVM (original), SVM (reproduced), MLP, and BiLSTM.
+The table provides the results of the difficulty prediction approaches on both the original data and new data, represented by the metrics ρ, rmse, and qwκ.
+The table shows the rmse for both the SEL and SIZE strategies on each corpus with randomly sampled target difficulties τ.
+The SEL strategy has an rmse of .11 on the Brown corpus.
+The mean error rates for the "easy (dec) SEL" and "easy (dec) SIZE" strategies are lower than the mean error rate for the "default DEF" strategy.
+The mean error rates for the "hard (inc) SEL" and "hard (inc) SIZE" strategies are higher than the mean error rate for the "default DEF" strategy.
+The accuracy with lexicon for FrameNet in the Data-Lexicon Baseline is 86.32.
+The F1-macro without lexicon for SALSA in the our_uni model is 47.40.
+UGRIC achieves the highest score in the BLEU-4 metric among all the models in Table 1.
+UGRIC without copying achieves a lower score in the CIDEr metric compared to UGRIC.
+Table 1 shows the fraction of incorrect summaries produced by recent summarization systems on the CNN-DM test set.
+The ROUGE-1 score for PGC See17 is 39.49%.
+The "Test" split has a lower percentage of incorrect summaries compared to the "Val" split for all NLI models except for ESIM.
+The NLI model "Random" has the highest improvement in percentage of incorrect summaries compared to the "Original" NLI model for the "Val" split.
+Table 2 provides French contraction rules and their expanded forms.
+Table 1 displays the accuracy of postle models on *BLESS datasets using Skip-Gram (SG) and GloVe (GL) distributional vectors.
+The accuracy of postle models with GloVe (GL) vectors is higher than the accuracy with Skip-Gram (SG) vectors for the "Disjoint BIBLESS" setup.
+The postle dffn model achieves the highest average precision (AP) for the target language Spanish.
+The distributional method consistently achieves lower average precision (AP) values compared to the random method.
+The Stanford rule-based system performs better on WikiCoref than on the CoNLL-2012 test set.
+The Lee et al. 2018 system outperforms the Lee et al. 2017 ensemble system.
+The POS-HAN model achieves the highest accuracy for all four datasets.
+The Style-HAN model achieves the highest accuracy scores for all four datasets.
+The Lexical-HAN model achieves the highest accuracy score for the CCAT10 dataset.
+The accuracy of the Combined fusion approach is higher for CCAT10 and BLOG10 compared to CCAT50 and BLOG50.
+The accuracy of the Parallel fusion approach is higher for CCAT10 and BLOG10 compared to CCAT50 and BLOG50.
+The "Style-HAN" model achieves the highest test accuracy for all datasets.
+The "Style-HAN" model outperforms the "Continuous n-gram" model on the CCAT10 dataset.
+Table 2 shows the experimental results for the discussion forum dataset.
+The LSTM conditional model performs better in the "S" category than in the "NS" category.
+The table presents experimental results for different models and techniques on the Twitter dataset.
+The LSTM model with the conditional technique achieves the highest precision, recall, and F1 score for sentiment classification on the Twitter dataset.
+SVM with T+V modality has the highest F-Score among all the algorithms and modalities in the speaker-dependent setup.
+Using multimodal features leads to an increase in F-Score, Precision, and Recall compared to using unimodal features in the speaker-dependent setup.
+SVM with modality T+A achieves the highest F-Score among all the algorithms.
+Using multimodal features leads to a slight improvement in precision, recall, and F-Score compared to using unimodal features.
+The table presents the results of different setups: "Speaker Dependent" and "Speaker Independent".
+The table shows the results of different feature combinations: "T", "context", and "speaker".
