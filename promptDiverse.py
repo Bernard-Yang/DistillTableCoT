@@ -9,7 +9,6 @@ from datetime import datetime
 from datetime import datetime
 import tiktoken
 """
-export OPENAI_KEY = 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
 """
 
 parser = argparse.ArgumentParser()
@@ -169,7 +168,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     openai.api_key = ""
-    # os.getenv('OPENAI_KEY')
+
 
     # with open(f'test_statements_{args.channel}.json') as f:
     with open(f'test_data.json') as f:
