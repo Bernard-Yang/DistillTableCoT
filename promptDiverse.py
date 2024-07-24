@@ -167,7 +167,6 @@ def chat_completion_with_backoff(**kwargs):
 if __name__ == "__main__":
     args = parser.parse_args()
 
-    openai.api_key = ""
 
 
     # with open(f'test_statements_{args.channel}.json') as f:
