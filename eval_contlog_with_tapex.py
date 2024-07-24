@@ -52,10 +52,7 @@ from transformers.utils import check_min_version
 from transformers.utils.versions import require_version
 
 # Will error if the minimal version of Transformers is not installed. Remove at your own risks.
-os.environ["HF_HOME"] = "/home/bohao/data/data/.cache/"
-os.environ["HF_DATASETS_CACHE"] = "/home/bohao/data/data/.cache/"
-os.environ["HUGGINGFACE_HUB_CACHE"] = "/home/bohao/data/data/.cache/"
-os.environ["TRANSFORMERS_CACHE"] = "/home/bohao/data/data/.cache/"
+
 
 require_version("datasets>=1.8.0", "To fix: pip install -r examples/pytorch/text-classification/requirements.txt")
 
